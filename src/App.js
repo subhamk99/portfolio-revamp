@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Title } from "./components/Title/Title";
+import Intro from "./components/Intro/Intro";
+import IconTray from "./components/IconTray/IconTray";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-emerald-300 h-screen flex flex-col px-20">
+      <div className="gap-7 flex flex-col justify-around items-baseline relative top-1/2 -translate-y-full p-4 ml-15">
+        <Title />
+        <Intro />
+        <IconTray />
+      </div>
     </div>
   );
 }
