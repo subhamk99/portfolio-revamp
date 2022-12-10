@@ -31,7 +31,7 @@ const Intro = () => {
     <div className="type-wrap">
       {/* <span style={{ whiteSpace: "pre" }} ref={el} /> */}
       <h1
-        className="text-7xl text-[#f5f5f5] text-stroke-black"
+        className="text-7xl text-[#E9DAC1]"
         style={{
           WebkitTextStrokeWidth: "1px",
           textShadow: "3px 4px 7px rgba(0,0,0,0.8)",

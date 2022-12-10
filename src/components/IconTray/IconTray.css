@@ -1,0 +1,13 @@
+.icon{
+    border-radius: 10%;
+    stroke: #F7ECDE;
+}
+.icon:hover {
+  box-shadow: 0 0 5px rgba(233, 218, 193, 0.8);
+  border-radius: 50%;
+  transition: all 0.7s ease;
+}
+.icon:hover > * {
+  stroke: rgba(233, 218, 193, 0.8);
+  transition: all 0.7s ease;
+}
