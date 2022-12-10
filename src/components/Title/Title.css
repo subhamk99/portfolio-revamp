@@ -1,5 +1,5 @@
-.mail:hover  {
-  -webkit-text-stroke-color: rgba(0, 111, 255, 1);
-  text-shadow: 0 0 5px rgba(0, 111, 255, 0.8);
+.mail:hover {
+  -webkit-text-stroke-color: rgba(233, 218, 193, 1);
+  text-shadow: 0 0 5px rgba(233, 218, 193, 1);
   transition: all 0.7s ease;
 }
